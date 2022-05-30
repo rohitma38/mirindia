@@ -1,0 +1,19 @@
+name: mirindia
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - matplotlib
+  - pandas
+  - numpy
+  - scipy
+  - librosa
+  - seaborn
+  - pip
+  - ipython
+  - jupyter
+  - pip:
+    - ffmpeg
+    - soundfile
+    - praat-parselmouth

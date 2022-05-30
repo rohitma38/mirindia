@@ -1,0 +1,13 @@
+matplotlib
+pandas
+numpy
+scipy
+librosa==0.8
+seaborn
+praat-parselmouth
+soundfile
+ffmpeg
+torch
+ipython
+opencv-python
+jupyter
