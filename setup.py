@@ -3,13 +3,13 @@ from setuptools import setup, find_packages
 
 setup(
     name='mirindia',
-    version='0.2',
+    version='0.1',
     license='MIT',
     author="rma",
-    packages=find_packages('src'),
-    package_dir={'': 'src'},
+    package_dir={'': 'mirindia'},
+    packages=find_packages('mirindia'),
     url='https://github.com/rohitma38/mirindia',
-    keywords='example project',
+    keywords='',
     install_requires=[
           'matplotlib','pandas','numpy','scipy',
           'librosa==0.8','seaborn','praat-parselmouth',

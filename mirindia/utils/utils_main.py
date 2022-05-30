@@ -15,9 +15,8 @@ import math
 import soundfile as sf
 import ffmpeg
 import os
-import cv2
 from collections import defaultdict
-import utils_fmp as fmp
+import mirindia.utils.utils_fmp as fmp
 import pdb
 
 #TODO- add audioPath can be None to all docstrings# #Resolved
